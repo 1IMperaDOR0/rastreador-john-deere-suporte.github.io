@@ -69,6 +69,7 @@ section {
 .contact{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .contact div a{
     padding: 20px;
@@ -157,6 +158,12 @@ footer span {
         background-color: #aa9300;
         border-bottom: 0;
         border-left: 4px solid #367c2b;
+    }
+}
+
+@media(max-width: 690px) {
+    .contact {
+        flex-direction: column;
     }
 }
 
